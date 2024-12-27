@@ -5,26 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mikroskil English Club - Payment Status</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Mikroskil English Club</h1>
-        <img src="pic/logo.png" alt="Mikroskil English Club Logo" class="logo">
+        <div class="container">
+            <img src="pic/logo5.png" alt="Mikroskil English Club Logo" class="logo">
+            <h1>Mikroskil English Club</h1>
+        </div>
     </header>
     <main>
-        <section>
+        <section class="hero">
+            <h2>Welcome to the Mikroskil English Club</h2>
+            <p>Join us in enhancing your English skills and connecting with fellow learners!</p>
+        </section>
+        <section class="status-section">
             <h2>Payment Status</h2>
-            <h3>Paid</h3>
-            <ul class="paid">
-                <li>John Doe - $50 <span class="checkmark">??</span></li>
-                <li>Jane Smith - $30 <span class="checkmark">??</span></li>
-            </ul>
-            <h3>Not Paid</h3>
-            <ul class="not-paid">
-                <li>Bob Johnson - $0</li>
-                <li>Alice Brown - $0</li>
-            </ul>
+            <div class="status-container">
+                <div class="status paid">
+                    <h3>Paid</h3>
+                    <ul>
+                        <li class="fade-in">John Doe - $50 <span class="checkmark">??</span></li>
+                        <li class="fade-in">Jane Smith - $30 <span class="checkmark">??</span></li>
+                    </ul>
+                </div>
+                <div class="status not-paid">
+                    <h3>Not Paid</h3>
+                    <ul>
+                        <li class="fade-in">Bob Johnson - $0</li>
+                        <li class="fade-in">Alice Brown - $0</li>
+                    </ul>
+                </div>
+            </div>
         </section>
     </main>
+    <footer>
+        <p>&copy; 2023 Mikroskil English Club. All rights reserved.</p>
+    </footer>
 </body>
 </html>
